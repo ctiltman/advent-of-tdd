@@ -1,4 +1,4 @@
-package org.advent.day1;
+package org.advent.lastyearday1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class ElfReaderSpike {
 
         //This will live in the main for this solution
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        InputStream is = classloader.getResourceAsStream("day1-elf-calories.txt");
+        InputStream is = classloader.getResourceAsStream("lastyear/day1-elf-calories.txt");
         InputStreamReader streamReader = new InputStreamReader(is, StandardCharsets.UTF_8);
         BufferedReader reader = new BufferedReader(streamReader);
 

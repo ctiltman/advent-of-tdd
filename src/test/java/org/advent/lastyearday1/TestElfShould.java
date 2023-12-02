@@ -1,4 +1,4 @@
-package org.advent.day1;
+package org.advent.lastyearday1;
 
 import org.junit.jupiter.api.Test;
 
